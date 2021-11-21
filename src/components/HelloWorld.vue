@@ -1,8 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h1>Jenkins自动化部署测试，下面有请我老婆发言</h1>
-    <img src="../assets/auto.webp" alt="哇哈哈">
+    <h1>Jenkins自动化部署测试</h1>
+    <h1>当前时间：用来检测Jenkins的配置</h1>
+    <img style="width: 100vw" src="../assets/auto.webp" alt="哇哈哈">
   </div>
 </template>
 
@@ -30,5 +31,9 @@ li {
 }
 a {
   color: #42b983;
+}
+h1 {
+  font-size: 24px;
+  color: pink;
 }
 </style>
